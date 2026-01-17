@@ -5,7 +5,7 @@ const { glob } = require('glob');
 
 // Configuration
 const DATA_DIR = path.join(process.cwd(), 'raw_data');
-const OUTPUT_FILE = path.join(process.cwd(), 'app', 'data', 'leetcode.json');
+const OUTPUT_FILE = path.join(process.cwd(),'data', 'leetcode.json');
 
 async function generateData() {
   const questionDb = {};
